@@ -1,0 +1,615 @@
+/* 
+Theme Name: The-Caddy 
+Description: The-Caddy. 
+Author: Black Cap IT
+Author URL: https://blackcapit.com/
+*/
+
+
+
+
+/*-----------Common------------*/
+@import url(../../vendor/fonts/stylesheet.css);
+
+.container {
+  max-width: 1360px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.inner-container {
+  max-width: 1070px;
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+body {
+  font-size: 14px;
+  color: #010101;
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+
+  font-size: 58px;
+  color: #fff;
+  font-weight: 900;
+  line-height: 65.63px;
+
+}
+
+h4 {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 40px;
+
+}
+
+h5 {
+  font-size: 30px;
+  color: #2A2B2E;
+}
+
+h6 {
+  font-size: 22px;
+  color: #2A2B2E;
+  font-weight: 700;
+  letter-spacing: 0.27px;
+  line-height: 30px;
+
+}
+
+p {
+  font-size: 16px;
+  color: #2A2B2E;
+  font-weight: 400;
+  letter-spacing: 0.19px;
+  line-height: 30px;
+
+}
+
+header {
+  position: relative;
+  z-index: 11;
+}
+
+.fw-900 {
+  font-weight: 900;
+}
+
+.green-color {
+  color: #8bb55b;
+}
+
+section,
+footer {
+  padding: 50px 0px 5px;
+}
+
+.check-list li:before {
+  content: '';
+  content: "\f00c";
+  font-family: "FontAwesome";
+  margin-right: 10px;
+  font-size: 12px;
+}
+
+.check-list li:last-child {
+  margin-right: 0px;
+}
+
+.check-list li {
+  display: block;
+  margin-right: 15px;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: #FFFFFF;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+button:focus {
+  outline: inherit;
+}
+
+nav.navi-bar {
+  background-color: transparent;
+  position: absolute;
+  width: 100%;
+  top: 0px;
+}
+
+button.navbar-toggler {
+  background-color: #827C7C;
+  border-radius: 10px;
+  color: #fff;
+
+}
+
+button.navbar-toggler:focus {
+  box-shadow: none;
+}
+
+.navbar-toggler-icon {
+  height: inherit;
+  width: inherit;
+}
+
+nav ul.navbar-nav li a.nav-link {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 900;
+  padding: 10px 10px !important;
+}
+
+nav ul.navbar-nav li {
+  padding: 5px 10px;
+}
+
+nav ul.navbar-nav li a.nav-link:hover,
+nav ul.navbar-nav li a.nav-link.active {
+  color: #20532b;
+  background: #fff;
+  border-radius: 0px;
+  box-shadow: 6px 8px 32px rgba(32, 84, 44, 0.47) !important;
+}
+
+.main .bg-caddy {
+  display: flex;
+  align-items: center;
+  padding: 215px 0px 350px 0px;
+  background: url(../img/banner-bg.svg);
+  background-repeat: no-repeat;
+  background-position: 100% 100%;
+  background-size: cover;
+  min-height: 1320px;
+  position: relative;
+  z-index: 0;
+}
+
+.main .bg-caddy .container {
+  z-index: 1;
+}
+
+.download {
+  background: linear-gradient(87deg, #44BB97 -6.5%, #73BB6F 99.81%);
+  border-radius: 49px;
+  padding: 100px 0px;
+}
+
+footer h6 {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.193684px;
+  margin-bottom: 20px;
+  color: #2A2B2E;
+}
+
+footer ul li a {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 31px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: #2A2B2E;
+}
+
+footer ul li a:hover {
+  color: #1F6234E5;
+}
+
+footer .form-control {
+  font-weight: 300;
+  line-height: 21px;
+  letter-spacing: 0.3px;
+  font-size: 22px;
+  color: #2A2B2E;
+  border-color: #E6E6E6;
+  border-width: 0px 0px 1px 0px;
+  height: 50px;
+}
+
+footer .form-control::placeholder {
+  color: #858891;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: 0.3px;
+}
+
+footer .form-control:focus {
+  border-color: #E6E6E6;
+  border-width: 0px 0px 1px 0px;
+  box-shadow: none;
+
+}
+
+.subscribe .search {
+  padding-right: 48px;
+}
+
+footer .search button {
+  top: 0px;
+  width: 48px;
+  height: 48px;
+  right: 0px;
+  font-size: 17px;
+  border-radius: 50%;
+  background-color: #09DFA1;
+  border: none;
+}
+
+footer .search button:hover {
+  background-color: #70BB72;
+}
+
+@media (max-width:767px) {
+
+
+  .main .bg-caddy {
+    padding: 100px 0px;
+  }
+
+  section.anthem-negative {
+    margin-top: 0px;
+  }
+
+  .download-section .container {
+    padding-left: 0px;
+    padding-right: 0px;
+  }
+
+  .download-section .download {
+    border-radius: 0px;
+  }
+
+  .check-list li {
+    margin-right: 0px;
+  }
+
+  nav.navbar .width-small {
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+
+  .main .bg-caddy h1 {
+    font-size: 32px;
+    line-height: 37.5px;
+  }
+
+  h1 {
+    font-size: 22px;
+    line-height: 25.78px;
+  }
+
+  h4 {
+    font-size: 16px;
+    line-height: 20px;
+  }
+
+  h5 {
+    font-size: 20px;
+  }
+
+  h6 {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+
+  .check-list li {
+    font-size: 12px;
+    line-height: 14.06px;
+  }
+
+  nav .navbar-collapse {
+    background-color: #fff;
+  }
+
+  nav ul.navbar-nav li a.nav-link {
+    color: #1F6234E5;
+
+  }
+
+  nav ul.navbar-nav li {
+    width: 100%;
+    text-align: center;
+  }
+
+  nav ul.navbar-nav li a.nav-link:hover,
+  nav ul.navbar-nav li a.nav-link.active {
+    background-color: #20532b;
+    color: #fff;
+  }
+
+  footer ul li a {
+    font-size: 12px;
+    line-height: 21px;
+  }
+
+  .download-font {
+    font-size: 36px;
+    line-height: 48px;
+  }
+
+  .border-top {
+    border-top-width: 50%;
+  }
+
+  .hidden-list {
+    font-size: 12px;
+    line-height: 21px;
+    font-weight: 400;
+    color: #2A2B2E;
+
+  }
+
+  nav ul.navbar-nav li a.nav-link:hover {
+    background-color: #70BB72;
+  }
+
+  .para-privacy {
+    font-size: 16px;
+    line-height: 30px;
+  }
+}
+
+
+
+
+/* form */
+
+.bg-form {
+  position: relative;
+  margin: auto;
+}
+
+form {
+  width: 345px;
+  height: 448px;
+  border-radius: 25px;
+  padding: 55px;
+  box-shadow: 0 5px 20px rgb(0 0 0 / 40%);
+}
+
+@media (min-width:577px) {
+  form {
+    width: 509px;
+    height: 685px;
+  }
+}
+
+
+@media (max-width:991px) {
+  .bg-form {
+    position: relative;
+    margin: auto;
+  }
+
+
+}
+
+@media (min-width:992px) {
+  form {
+    width: 442px;
+    height: 627px;
+  }
+
+  .bg-form {
+    position: absolute;
+    background-color: #fff;
+    z-index: 1;
+    margin: 172px 0px;
+
+  }
+
+  .contact-btn {
+    position: relative;
+    margin: 0rem;
+  }
+}
+
+@media (min-width:1200px) {
+  form {
+    width: 509px;
+    height: 685px;
+  }
+
+  .bg-form {
+    position: absolute;
+    background-color: #fff;
+    z-index: 1;
+    margin: 132px 0px;
+
+  }
+
+  .contact-btn {
+    position: absolute;
+    margin-left: 1rem;
+  }
+}
+
+/* form */
+
+
+/* contact-page */
+/* contact-banner */
+.banner-text p {
+  color: #fff;
+  font-size: 22px;
+}
+
+.app-store {
+  padding-top: 40px;
+}
+
+.banner-text-hidden p {
+  color: #3A3A3A;
+  font-size: 16px;
+  line-height: 24px;
+  font-weight: bold;
+}
+
+.contact-banner {
+  background: url(../img/banner-bg.svg);
+  background-repeat: no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 130px;
+  position: relative;
+}
+
+h3 {
+  font-size: 16px;
+  color: #3A3A3A;
+  line-height: 30px;
+}
+
+h2 {
+  font-size: 30px;
+  color: #3A3A3A;
+  line-height: 30px;
+  font-weight: bold;
+}
+
+form .form-control {
+  font-size: 15px;
+  font-weight: 200;
+  line-height: 20px;
+  border: none;
+  border-bottom: 1px solid #E6E6E6;
+  border-radius: 0;
+}
+
+.btn-primary {
+  background-color: #00E9A7;
+  border: none;
+
+}
+
+.btn-primary:hover {
+  background-color: #70BB72;
+}
+
+.contact-footbal {
+  background: url(../img/Football-Pic.png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  min-height: 400px;
+  position: relative;
+}
+
+.contact-form .form-control {
+  font-weight: 300;
+  line-height: 21px;
+  letter-spacing: 0.3px;
+  font-size: 22px;
+  color: #2A2B2E;
+  border-color: #E6E6E6;
+  border-width: 0px 0px 1px 0px;
+  height: 50px;
+}
+
+.contact-form .form-control::placeholder {
+  color: #858891;
+  font-weight: 300;
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: 0.3px;
+}
+
+.contact-form .form-control:focus {
+  border-color: #E6E6E6;
+  border-width: 0px 0px 1px 0px;
+  box-shadow: none;
+
+}
+
+.contact-form button {
+  top: 0px;
+  width: 48px;
+  height: 48px;
+  right: 0px;
+  font-size: 17px;
+  border-radius: 50%;
+  background-color: #09DFA1;
+  border: none;
+}
+
+.contact-form .search button:hover {
+  background-color: #70BB72;
+}
+
+.w-65 {
+  width: 62%
+}
+
+.privacy-hd {
+  font-size: 32px;
+  font-weight: bolder;
+}
+
+.privacy-list li {
+  font-size: 16px;
+  line-height: 30px;
+  color: #2A2B2E;
+
+}
+
+.dot {
+  font-size: 35px;
+}
+
+.circle-style {
+  list-style: circle;
+  margin-left: 20px;
+}
+
+.square-style {
+
+  list-style: square;
+  margin-left: 20px;
+}
+
+.anthem-negative {
+  margin-top: -405px;
+  z-index: 9;
+  position: relative;
+}
+
+.banner-box {
+  font-family: 'SF Pro Rounded', sans-serif;
+}
+
+footer .inner-container {
+  border-top: 2px solid #E2DADA;
+}
+
+.cont-list {
+  font-size: 16px;
+  color: #2A2B2E;
+  font-weight: 400;
+  letter-spacing: 0.19px;
+  line-height: 30px;
+}
+::marker {
+  font-size: 24px;
+}

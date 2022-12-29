@@ -1,0 +1,14 @@
+@font-face {
+    font-family: 'SF Pro Rounded';
+    src: url('SFRounded-Heavy.eot');
+    src: local('SF Pro Rounded Heavy'), local('SFRounded-Heavy'),
+        url('SFRounded-Heavy.eot?#iefix') format('embedded-opentype'),
+        url('SFRounded-Heavy.woff2') format('woff2'),
+        url('SFRounded-Heavy.woff') format('woff'),
+        url('SFRounded-Heavy.ttf') format('truetype'),
+        url('SFRounded-Heavy.svg#SFRounded-Heavy') format('svg');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
